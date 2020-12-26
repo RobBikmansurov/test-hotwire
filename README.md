@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Redis
+sudo apt install redis-server
+sudo vi /etc/redis/redis.conf: 		supervised systemd
+sudo systemctl status redis
+redis-cli
+> ping
 
-Things you may want to cover:
+## App install
+rails hotwire:install
+rails action_text:install
 
-* Ruby version
+bundle install
+bundle install rails db:migrate
 
-* System dependencies
 
-* Configuration
+## Webpack dev server
+$ bin/webpack-dev-server
 
-* Database creation
+## Run App
+bundle exec rails s
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
