@@ -1,5 +1,9 @@
 # README
 
+
+![Tests](https://github.com/RobBikmansurov/test-hotwire/workflows/Tests/badge.svg)
+
+
 ## Redis
 sudo apt install redis-server
 sudo vi /etc/redis/redis.conf: 		supervised systemd
